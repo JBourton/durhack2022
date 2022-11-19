@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+    
+
+img {
+    max-width:100%;
+    max-height:100%;
+}
+
+body {
+    /*background: linear-gradient(#18191a, #3a3b3c);*/
+    background-image: url(/frontend/resources/Durham-Bailey.jpg);
+    min-height: 100vh;  
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.text {
+   text-align: center; 
+}
+
